@@ -8,7 +8,7 @@ words = ['if', 'you', 'say', 'to', 'me', "you'd", 'let', 'be', 'your', 'man', 'f
          'think', 'understood', 'meet', 'somebody', 'mean', 'call', 'doubt', 'leave', 'love', 'how', 'stay', 'then', 'refuse', 'hold', 'coming', 
          'he', 'should', 'fight', 'darling', 'care', 'they', 'mes', 'true', 'do', 'again', 'finally', 'never', 'thats', 'ok', 'confess', 'whole', 
          'heart', 'too', 'dreams', 'tell', 'demons', 'we', 'compare', 'our', 'stories', 'trials', 'glories', 'hope', "mine's", 'not', 'boring', 
-         'anna', 'muse', 'youve', 'said', 'thought', 'id', 'ignore', 'la', 'da', 'words', 'become', 'truth', 'water', 'saving', 'parachute', 
+         'youve', 'said', 'thought', 'id', 'ignore', 'la', 'da', 'words', 'become', 'truth', 'water', 'saving', 'parachute', 
          'breath', 'wine', 'youth', 'pretend', 'mine', 'am', 'fool', 'foool', 'close', 'dream', 'may', 'lead', 'room', 'yet', 'demon', 'still', 
          'she', 'hides', 'sleeve', 'with', 'salty', 'memories', 'stored', 'part-by-part', 'young', 'blunder', 'farse', 'self-serving', "love's", 
          'forgot', 'longer', 'an', 'art', 'face', 'has', 'launched', 'thousand', 'ships', 'war-torn', 'kiss', 'soon', 'some', 'flower', 'of', 'lost', 
@@ -60,7 +60,7 @@ words = ['if', 'you', 'say', 'to', 'me', "you'd", 'let', 'be', 'your', 'man', 'f
          'purify', 'passions', 'river', 'wet', 'stretch', 'paws', 'along', 'shores', 'gaze', 'depths', 'crouch', 'spiders', 'raindrops', 'singing', 'ghost', 
          'reverie', 'cuz', 'miss', 'hollow', 'stallion', 'nightmares', 'armistice', 'stalk', 'gibberish', 'moon', 'different', 'language', 'cannot', 'after', 
          'june', 'pine', 'brushing', 'dew', 'unlike', 'copious', 'death', 'precipitation', 'carry', "something's", 'pending', 'curvaceously', 'sunburned', 
-         'agree', "should've", "pleasure's", 'chin', 'mess', 'pool', 'spent', 'sunday', 'school', 'july', 'monsoon', 'golden', 'hue', 'hung', 'drove', 
+         'agree', "should've", "pleasure's", 'chin', 'mess', 'pool', 'spent', 'sunday', 'school', 'july', 'golden', 'hue', 'hung', 'drove', 
          'straight', 'burial', 'ground', 'saw', 'loud', 'gray-blue', 'grave', 'red', 'suits', 'five', 'took', '405', 'act', 'age', 'fast', 'asleep', 
          'choose', 'midnight', 'kitchen', 'pocketbook', 'quit', 'hate', 'anyway', 'another...', 'shift', 'safety', 'pride', "one's", 'keeping', 'score', 
          'fear', 'downfall', 'enemy', 'blame', 'fault', 'core', 'leap', 'corners', 'somersault', 'emotions', 'dive', 'steady', 'crash', 'lies', 'nice', 
@@ -75,4 +75,4 @@ words = ['if', 'you', 'say', 'to', 'me', "you'd", 'let', 'be', 'your', 'man', 'f
          'cinnamon', 'cup', 'coffee', 'cream', 'fuel', 'cigarette', 'reading', 'instruction', 'manual', 'everyday', 'further', 'start', 'consider', 'desired', 
          "wasn't", 'bit', 'umpire', "else's", 'sweat-faced', 'counter', 'half-regretting', 'flyer', 'watching', 'silver', 'soda', 'underneath', 'ceiling', 'fan', 
          'half-consumed', 'perspire', 'tendency', 'laugh', 'moments', 'silent', 'type', 'exit', 'sign', 'yellow', 'brick', 'dirty', 'dishes', 'til', 'miles', 'each', 
-         'future', 'holds', 'surface', 'storm', 'sunset', 'hurricane', 'vincent', 'van', 'gogh', 'feeling', 'clearly', 'nearly', 'heal', 'fades', 'loves', 'feelings']
+         'future', 'holds', 'surface', 'storm', 'sunset', 'hurricane', 'feeling', 'clearly', 'nearly', 'heal', 'fades', 'loves', 'feelings']
