@@ -1,2 +1,2 @@
 # SongLyricGenerator
-Generates good songs only
+Generate good songs only, I'm not responsible if the song insults you...
