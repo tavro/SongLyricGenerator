@@ -3,10 +3,40 @@ import wordhandling
 import pathhandling
 import library
 
-def create_section_from_data(line_amount):
-    pass
+def has_context(line):
+    dic = library.context
+    if line in dic:
+        return True
+    return False
+
+def create_line_with_context(context_line):
+    dic = library.context
+    if context_line in dic:
+        context_len = len(dic[context_line])-1
+        return dic[context_line][random.randint(0, context_len)]
+
+def create_section_from_data(line_amount, section):
+    section = [section]
+    for i in range(line_amount):
+        if has_context(section[len(section)-1]):
+            if random.randint(0, 10) > 5:
+                line = create_line_with_context(section[len(section)-1])
+            else:
+                line = wordhandling.get_random_line()
+        else:
+            line = wordhandling.get_random_line()
+        section.append(line)
+    return section
+
 
 def create_section(line_amount, word_amount, section, words):
+    
+    if section == "[VERSE]":
+        r = random.randint(0, 100)
+        if r > 98:
+            #generate whole section instantly with pre-generated data
+            return create_section_from_data(line_amount, section)
+
     final = [section]
     all_words = wordhandling.get_all_words(pathhandling.paths)
     word = ""
