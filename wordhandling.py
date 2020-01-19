@@ -51,3 +51,34 @@ def get_random_first_word():
         return unpopular[random.randint(0, len(unpopular)-1)]
     elif rand >= 95 and rand <= 100:
         return bad[random.randint(0, len(bad)-1)]
+
+def is_ending_prepositions(word):
+    return word == "a" or word == "i" or word == "as" or word == "if" or word == "your" or word == "to" or word == "and" or word == "let" or word == "my" or word == "just" or word == "the" or word == "til" or word == "of" or word == "but" or word == "when" or word == "such" or word == "in" or word == "just"
+
+
+def get_random_line():
+    great_generated_lines = ["Im used to say it should've been", "And dont i know i am lost", "I can feel you hope mine's not", "To tell me i dont wanna stop", 
+                                         "I haven't felt this in my mind", "This is up in your chameleon skin", "Your pocketbook can't hear he's handsome and unprepared", 
+                                         "When i give me down and carry on", "Woman dreaming of your pen left town tonight", "All my dreams i can do nothing without", 
+                                         "And even when i haven't been me", "If this is this go by my side", "A damn good job everybody likes", "You and i can't get used", 
+                                         "Remember who i've already shown that i am", "Baby dont wanna get off my saving parachute", "Been lost but oh oh no longer lost",
+                                         "I know that song and i know", "My love in my hand oh", "Don't follow what i know what pleases me", "Its hot and we'll keep putting stones on", 
+                                         "Wanna remember who i've been who i've lost", "I will i still got your throne", "She says that you will close down", 
+                                         "We drink of all that i won't be", "My love my tries to fly away", "That said i have been a fool", "On my bed she tells him it's", 
+                                         "Already done wrong and some call his name", "I haven't been me nothing without you", "Don't wanna remember who i've already past", 
+                                         "And i am unchanging i'm getting further", "Your restless little boy and every morning sunrise", "Wanna heal but it should've been lonesome", 
+                                         "That you used to be in your mind", "All lies crash into my chest like it", "My wings i will i know it", "Im so much older baby please", 
+                                         "I haven't been me go now", "My emotions i'm waking up leaving it", "End of my love to love in reverie", "Im used to you wanna remember who", 
+                                         "The floor hold you from the core", "You are warm today dont wanna heal", "When you're impressed that i know what", 
+                                         "Will risk our eyes and take the life", "I know it takes a little boy", "Love oh i will close down and all", 
+                                         "We are sad songs that i could blow", "This was wrong and i forget the miles", "Just like me you'd pull me she said", 
+                                         "Baby dead like me i wish i watch", "On my bed she said i'm just another", "Know what you take oh oh no this", 
+                                         "Know it was dead like you are radiant", "You only known love you're gonna lie", "I dont i keep trying to be", 
+                                         "That showed you i don't really know oh", "You say what you oh-oh-oh-oh oh-oh-oh-oh oh-oh-oh-oh", "I show me time to be", 
+                                         "It should've been me something picks me", "I already know what i will love", "You keep putting stones on the weakest", 
+                                         "Try to meet somebody i will i will", "Wooo oooohh i can i love you", "As i still think i call goodbye", "Why oh oh oh lying awake", 
+                                         "The fray weight of iron skin", "My eyes that's all of all", "Act my baby dont wanna hear the fuck", "I'd climb these songs are the best", 
+                                         "But i pray something clearly gone baby please", "When i know i feed off the best", "All i hear he went she hides her", 
+                                         "When i feel the love you have played", "Will come pourin' down it's in the darkness", "Gal 'sorry for me that i don't give", 
+                                         "She said we'd live in love darling"]
+    return great_generated_lines[random.randint(0, len(great_generated_lines)-1)]
