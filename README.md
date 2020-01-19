@@ -10,3 +10,7 @@ Enjoy.
 ![example song](example_song.png)
 
 Really need to get some commas in there
+
+Here is the first fully generated song with understanable sentences
+
+![first song](first_fully_generated.png)
