@@ -68,6 +68,10 @@ def create_section(line_amount, word_amount, section, words):
                     break
 
             line+=word + " "
+
+        if wordhandling.is_bad_line(line):
+            line = wordhandling.get_random_line()
+
         final.append(line)
 
     return final

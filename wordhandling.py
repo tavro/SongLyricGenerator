@@ -9,7 +9,7 @@ def get_all_words(paths):
         data = data + string.split()
     for word in data:
         all_words = all_words + word.split(" ")
-    return remove_tags_and_symbols_from_words(all_words,["â€™", ",", "?", ";", "!", "â€˜", "â€‹"])
+    return remove_tags_and_symbols_from_words(all_words,["â€™", ",", "?", ";", "!", "â€˜", "â€‹", "."])
 
 def remove_tags_and_symbols_from_words(all_words, symbols):
     final = []
@@ -30,6 +30,12 @@ def words_that_follow(word, all_words):
             if not (i == len(all_words)-1): 
                 final_dictonary[word].append(all_words[i+1])
     return final_dictonary
+
+def is_bad_line(line):
+    line = line[:-1]
+    if line in library.bad_generated_lines:
+        return True
+    return False
 
 def get_random_first_word():
     popular = ['your', 'all', 'on', 'know', 'oh', 'that', 'up', 'love', 'of', 'when']
