@@ -14,3 +14,7 @@ Really need to get some commas in there
 Here is the first fully generated song with understanable sentences
 
 ![first song](first_fully_generated.png)
+
+This program will get so much better soon, just wait!
+
+![latest song](latest_song.png)
